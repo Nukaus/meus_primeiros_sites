@@ -22,6 +22,12 @@ header{
     display: flex;
 }
 
+.linha {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
 .servicestwo{
     max-width: 300px;
     padding: 10px;
@@ -72,12 +78,11 @@ input, textarea, button{
 
 @media (max-width: 760px){
 #servicesone{
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
 }
 
 .servicestwo{
-    max-width: 100px;
+    max-width: 200px;
     padding: 10px;
     
 }
@@ -89,8 +94,8 @@ input, textarea, button{
 }
 
 @media (max-width: 1010px){
-    .servicesimg{
-        width: 80px;
-        height: 80px;
-    }
+.servicesimg{
+    width: 80px;
+    height: 80px;
+}
 }
