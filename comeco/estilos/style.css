@@ -77,6 +77,14 @@ input, textarea, button{
 }
 
 @media (max-width: 760px){
+#about{
+    flex-wrap: wrap;
+}
+
+#imgper{
+    margin: auto;
+}
+
 #servicesone{
     display: block;
 }
