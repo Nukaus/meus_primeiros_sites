@@ -32,15 +32,27 @@ header{
     max-width: 300px;
     padding: 10px;
     margin: auto;
+    text-align: justify;
+    
+}
+
+h3{
+    text-align: center;
 }
 
 .servicestwo a{
     text-decoration: none;
 }
 
+.imagem{
+    display: flex;
+}
+
 .servicesimg{
     width: 200px;
     height: 200px;
+    margin: auto;
+
 }
 #contat{
     display: flex;
@@ -95,6 +107,7 @@ input, textarea, button{
     
 }
 
+
 .servicesimg{
     width: 100px;
     height: 100px;
@@ -102,6 +115,10 @@ input, textarea, button{
 }
 
 @media (max-width: 1010px){
+#servicesone{
+    display: block;
+}
+
 .servicesimg{
     width: 80px;
     height: 80px;
