@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+
+
+#head{
+    display: flex;
+    justify-content: space-between;
+}
+
+#headerchild{
+    max-width: 290px;
+    max-height: 290px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+hr{
+    margin: 20px;
+}
+
+#portimg{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 20px;
+    
+}
+
+.imgport{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    
+}
+
+.img-responsiva {
+  width: 100%;
+  height: 160px;
+  display: block;
+  border-radius: 10px;
+  
+}
+
+#servicos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trabalhos{
+    width: 400px;
+    height: 150px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#formu{
+    display: flex;
+   justify-content: space-around;
+}
+
+.formulario {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label {
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+input, textarea{
+    padding: 5px;
+    font-size: 16px;
+    margin: 5px;
+    resize: none;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+#subject{
+    height: 110px;
+}
+
+.formulario button{
+    width: 198px;
+    align-self: center;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+@media (max-width: 760px){
+    #portimg{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #servicos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 1024px){
+   
+}
