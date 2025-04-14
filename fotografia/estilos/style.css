@@ -35,7 +35,12 @@ hr{
     width: 200px;
     height: 200px;
     margin: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     
+}
+
+.imgport:hover{
+    transform: scale(1.05);
 }
 
 .img-responsiva {
@@ -53,12 +58,22 @@ hr{
 
 .trabalhos{
     width: 400px;
-    height: 150px;
+    height: 165px;
     border: 1px solid rgb(199, 199, 199);
     border-radius: 5px;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.trabalhos:hover{
+    transform: scale(1.05);
+    text-decoration: underline;
+    
+}
+
 
 #formu{
     display: flex;
