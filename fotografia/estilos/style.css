@@ -11,8 +11,8 @@ body{
 }
 
 #headerchild{
-    max-width: 290px;
-    max-height: 290px;
+    width: 290px;
+    height: 290px;
     border-radius: 10px;
     margin: 10px;
 }
@@ -23,10 +23,13 @@ hr{
 
 #portimg{
     display: flex;
-    justify-content: space-between;
-    margin: 0 20px 0 20px;
-    
+    justify-content: center;
 }
+
+.linha {
+    display: flex;
+    justify-content: space-between;
+  }
 
 .imgport{
     width: 200px;
@@ -105,9 +108,15 @@ footer{
 }
 
 @media (max-width: 760px){
+    #headerchild{
+        max-width: 200px;
+        max-height: 200px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
     #portimg{
-        display: flex;
-        flex-wrap: wrap;
+        display: block;
     }
 
     #servicos{
